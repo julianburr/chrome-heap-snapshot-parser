@@ -1,0 +1,23 @@
+{
+  "name": "chrome-heap-snapshot-parser",
+  "version": "1.0.0-rc.2",
+  "description": "Parse snapshots to a usable format to automate your heap snapshot testing",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julianburr/chrome-heap-snapshot-parser.git"
+  },
+  "keywords": ["node", "heap snapshots"],
+  "author": "Julian Burr <hello@julianburr.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/julianburr/chrome-heap-snapshot-parser/issues"
+  },
+  "homepage": "https://github.com/julianburr/chrome-heap-snapshot-parser#readme",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "20.0.3"
+  }
+}
